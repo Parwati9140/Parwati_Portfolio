@@ -1,0 +1,63 @@
+.who-am-i {
+    background-color: #0f172a; /* Dark blue background */
+    color: white;
+    padding: 40px 20px;
+    position: relative;
+  }
+  .who-am-i h3{
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgba(248, 242, 242, 0.855);
+  }
+  .who-am-i-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-section {
+    flex: 1;
+    margin-right: 20px;
+    padding: 10px;
+  }
+  
+  .text-section h2 {
+    color: #00ffab; /* Bright green for the heading */
+  }
+  
+  .text-section p {
+    color: #cbd5e1;
+    font-size: 18px;
+    line-height: 1.6;
+   
+  }
+  
+  .image-section {
+    flex:1;
+  }
+  
+  .image-section img {
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 180px;
+  }
+  
+  .scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .scroll-top:hover {
+    background-color: #4338ca;
+  }
+  

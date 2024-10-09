@@ -1,0 +1,143 @@
+
+  
+  .hero-text {
+    flex: 1;
+    margin-right: 2rem; /* Add some spacing between text and code */
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem;
+    background-color: #141e30; /* or any other color */
+    color: white;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  }
+  
+  .hero-text {
+    flex: 1;
+    margin-right: 2rem; /* Add some spacing between text and code */
+  }
+  
+  .code-snippet {
+    flex: 1; /* Take up available space */
+    background-color: #1e1e1e ; /* Background color for the code snippet */
+    padding: 1rem; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 100%; /* Ensure it does not exceed the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  .code-snippet pre {
+    margin: 0; /* Remove margin from <pre> */
+    overflow: hidden; /* Hide any overflow */
+    white-space: pre-wrap; /* Wrap long lines */
+    word-wrap: break-word; /* Break words if necessary */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    font-size: 1rem; /* Adjust font size for better readability */
+    color: #00ff9d; /* Match code color with the overall theme */
+    line-height: 1.5; /* Add line height for better spacing */
+  }
+  
+  .code-snippet code {
+    display: block; /* Ensure block-level display for code */
+    white-space: pre-wrap; /* Allow wrapping of text */
+  }
+  
+  /* Media Queries for Small Screens */
+
+  
+
+  
+  .hero h1, .hero h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  .highlight {
+    color: #ff1493; /* Pink color */
+  }
+  .name{
+    color:#00ff9d ;
+  }
+  
+  .social-icons a {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #ff1493; /* Pink for icons */
+  }
+  
+  .cta-buttons {
+    margin-top: 1rem;
+
+  }
+  .btn-primary, .btn-secondary {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #6a0dad;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #ff1493;
+    color: white;
+  }
+  /* Scroll to Top Button Styling */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 1000;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+}
+
+.scroll-to-top:hover {
+  background-color: #4338ca;
+}
+  @media (max-width: 768px) {
+    .hero {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+      }
+    
+      .hero-text {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 2rem; /* Add bottom margin for spacing */
+      }
+    
+      .code-snippet {
+        width: 100%; /* Ensure the code snippet takes full width */
+      }
+    
+      .cta-buttons {
+        display: flex;
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: flex-start; /* Align buttons to the left */
+      }
+    
+      .btn-primary, .btn-secondary {
+        margin-right: 0; /* Remove right margin on buttons */
+        margin-bottom: 1rem; /* Add bottom margin for spacing */
+      }
+  }
