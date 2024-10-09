@@ -79,9 +79,9 @@
   }
   
   .experience-icon {
-    margin-right: 10px;  /* Space between the icon and the role */
+    margin-right: 10px;  
     font-size: 1.5rem;    /* Adjust the size of the icon */
-    color: rgba(227, 104, 249, 0.673);       /* Customize the icon color */
+    color: rgba(227, 104, 249, 0.673);     
   }
   
   .experience-role h3 {
@@ -92,7 +92,7 @@
   /* Date Styling */
   .experience-date {
     display: block;
-    text-align: center;   /* Centers the date */
+    text-align: center;  
     font-size: 1rem;
     margin-bottom: 15px;
     color: #00ffab;
