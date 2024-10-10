@@ -5,12 +5,12 @@ const About = () => {
 
   return (
     <section className="who-am-i">
-      <h3>About Us</h3>
+      <h3 className='n'>About Us<hr/></h3>
       <div className="who-am-i-content">
         <div className="text-section">
           <h2>Who I am?</h2>
           <p>
-            My name is ABU SAID. I am a professional and enthusiastic programmer
+            My name is Parwati Maurya. I am a professional and enthusiastic programmer
             in my daily life. I am a quick learner with a self-learning attitude.
             I love to learn and explore new technologies and am passionate about 
             problem-solving. I love almost all the stacks of web application development 

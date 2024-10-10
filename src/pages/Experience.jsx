@@ -4,19 +4,19 @@ import { FaUserTie } from 'react-icons/fa';  // Example using Font Awesome icons
 
 const experiences = [
   {
-    role: "SOFTWARE ENGINEER I",
-    company: "Teton Private Ltd.",
-    date: "Jan 2022 - Present",
+    role: "FRONTEND DEVELOPER",
+    company: "SkyBlue Web Solution Private Limited.",
+    date: "Jan 2023 - Present",
   },
   {
-    role: "FULLSTACK DEVELOPER",
-    company: "Fiverr (freelance)",
-    date: "Jun 2021 - Jan 2022",
+    role: "FULLSTACK DEVELOPEMent",
+    company: "Apprenticip",
+    date: "Jun 2022 - Jan 2023",
   },
   {
     role: "SELF EMPLOYED",
     company: "Code and build something everyday.",
-    date: "Jan 2018 - Present",
+    date: "Jan 2020 - Present",
   },
 ];
 
@@ -31,7 +31,7 @@ const Experience = () => {
 
         {/* Experience List */}
         <div className="experience-list-container">
-          <h2>Experiences</h2>
+         <div className='n'> <h2 >Experiences<hr style={{marginRight:"340px"}}/></h2></div>
           <div className="experience-list">
             {experiences.map((exp, index) => (
               <div className="experience-item" key={index}>

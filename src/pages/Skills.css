@@ -1,0 +1,51 @@
+.skills-container {
+    overflow: hidden;
+    background-color: #0f172a;
+    padding: 30px;
+  }
+  
+  .skills-scroll {
+    display: flex;
+    gap: 20px;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .skill-card {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    min-width: 150px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for both shadow and zoom */
+  }
+  .skill-card p{
+    color: white;
+    font-size: 24px;
+  }
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Stop scrolling on hover */
+  .skills-scroll:hover {
+    animation-play-state: paused;
+  }
+  
+  /* Zoom and shadow on hover */
+  .skill-card:hover {
+    box-shadow: 0 4px 12px #f168b1; /* Violet box shadow */
+    transform: scale(1.1); /* Zoom in */
+  }
+  

@@ -4,11 +4,6 @@
     padding: 40px 20px;
     position: relative;
   }
-  .who-am-i h3{
-    font-size: 2.5rem;
-    text-align: center;
-    color: rgba(248, 242, 242, 0.855);
-  }
   .who-am-i-content {
     display: flex;
     justify-content: flex-start;

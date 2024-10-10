@@ -17,7 +17,7 @@
     justify-content: space-between;
     max-width: 1200px;
     width: 100%;
-    gap: 80px;
+    gap: 100px;
   }
   
   .animated-image {
@@ -50,19 +50,19 @@
   .experience-list-container h2 {
     text-align: left;
     color: #cbd5e1;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 2.5rem;
   }
   
   .experience-list {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
   }
   
   .experience-item {
     background: linear-gradient(135deg, #000000 50%, #4b0082 100%, #8a2be2 100%);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }

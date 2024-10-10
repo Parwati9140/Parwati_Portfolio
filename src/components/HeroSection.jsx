@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import "./HeroSection.css";
 import About from "../pages/About";
 import Experience from "../pages/Experience";
+import Skills from "../pages/Skills";
+import Education from "../pages/Education";
+import Projects from "../pages/Projects";
+import Contact from "../pages/Contact";
 
 const HeroSection = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -61,8 +65,8 @@ const HeroSection = () => {
             <code>
               {`
 const coder = {
-  name: 'Abu Said',
-  skills: ['React', 'NextJS', 'Redux', 'Express', 'NestJS'],
+  name: 'Parwati Maurya',
+  skills: ['React', 'Node', 'Redux', 'Express', 'NestJS'],
   hardWorker: true,
   quickLearner: true,
   problemSolver: true,
@@ -78,6 +82,10 @@ const coder = {
 
       <About />
       <Experience />
+<Skills/>
+<Projects/>
+<Education/>
+<Contact/>
 
       {/* Scroll to Top Button */}
       <button
