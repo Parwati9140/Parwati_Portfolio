@@ -35,7 +35,7 @@ const Education = () => {
       <div className="experience-content">
         {/* Animated Image Container */}
         <div className="animated-image">
-          <img src="images/eduPurple.svg" alt="Animated Laptop" />
+          <img src="https://images/eduPurple.svg" alt="Animated Laptop" />
         </div>
 
         {/* Experience List */}

@@ -20,7 +20,7 @@ const About = () => {
           </p>
         </div>
         <div className="image-section">
-          <img src="images/pinki2.jpeg" alt="Parwati" />
+          <img src="https://images/pinki2.jpeg" alt="Parwati" />
         </div>
       </div>
 

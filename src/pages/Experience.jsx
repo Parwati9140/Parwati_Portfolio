@@ -26,7 +26,7 @@ const Experience = () => {
       <div className="experience-content">
         {/* Animated Image Container */}
         <div className="animated-image">
-          <img src="images/expPurple.svg" alt="Animated Laptop" />
+          <img src="https://images/expPurple.svg" alt="Animated Laptop" />
         </div>
 
         {/* Experience List */}
