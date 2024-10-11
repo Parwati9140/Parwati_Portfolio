@@ -9,7 +9,7 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
-  // Close the menu when a link is clicked
+
   const closeMenu = () => {
     setMenuOpen(false);
   };

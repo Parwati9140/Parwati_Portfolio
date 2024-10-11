@@ -10,12 +10,12 @@ import Header from "./Header";
 const HeroSection = () => {
   const [showScroll, setShowScroll] = useState(false);
 
-  // Function to scroll to the top
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // Toggle the visibility of the scroll button when user scrolls down
+ 
   const checkScrollTop = () => {
     if (!showScroll && window.pageYOffset > 400) {
       setShowScroll(true);

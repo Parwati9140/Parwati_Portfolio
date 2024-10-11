@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experience.css';
-import { FaUserTie } from 'react-icons/fa';  // Example using Font Awesome icons
+import { FaUserTie } from 'react-icons/fa'; 
 
 const experiences = [
   {

@@ -9,7 +9,7 @@ const skills = [
     { name: 'Javascript', image: `${process.env.PUBLIC_URL}/images/javaScript.svg` },
     { name: 'Bootstrap', image: `${process.env.PUBLIC_URL}/images/bootstrap.svg` },
     { name: 'Mongodb', image: `${process.env.PUBLIC_URL}/images/mongoDb.svg` },
-    { name: 'Node', image: `${process.env.PUBLIC_URL}/images/mongoDb.svg` }, // Fixed duplicate MongoDB image
+    { name: 'Node', image: `${process.env.PUBLIC_URL}/images/mongoDb.svg` }, 
     { name: 'Git', image: `${process.env.PUBLIC_URL}/images/git.svg` },
     { name: 'Figma', image: `${process.env.PUBLIC_URL}/images/figma.svg` },
     { name: 'Java', image: `${process.env.PUBLIC_URL}/images/java.svg` },
