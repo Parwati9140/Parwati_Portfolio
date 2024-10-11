@@ -148,10 +148,10 @@
   }
 
   .experience-role h3 {
-    font-size: 1rem; /* Smaller role font size */
+    font-size: 1rem;
   }
 
   .experience-role p {
-    font-size: 0.9rem; /* Smaller text for role description */
+    font-size: 0.9rem;
   }
 }
