@@ -20,10 +20,10 @@
 
 .project-card {
   display: flex;
-  flex-direction: row; /* Horizontal layout */
+  flex-direction: row; /* Horizontal layout by default */
   justify-content: space-between;
   align-items: center;
-  width: 600px; /* Set a width for the card */
+  width: 600px; /* Default width for larger screens */
   padding: 20px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -42,21 +42,66 @@
 }
 
 .project-card img {
-  width: 150px; /* Set the width of the image */
+  width: 150px; /* Image width */
   height: auto;
   object-fit: cover;
-  margin-left: 20px; /* Add space between the text and image */
-  border-radius: 8px; /* Optional: round the image corners */
+  margin-left: 20px; /* Space between text and image */
+  border-radius: 8px; /* Rounded corners for the image */
 }
+
 .project-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(222, 55, 252, 0.853);
 }
+
 .github-link {
-  color:  #00ff9d;
+  color: #00ff9d;
   text-decoration: none;
 }
 
 .github-link:hover {
   text-decoration: underline;
+}
+
+/* Media Queries for responsiveness */
+
+/* Medium screens (tablets, etc.) */
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%; /* Full width for medium screens */
+    flex-direction: column; /* Stack content vertically */
+    text-align: center; /* Center-align content */
+  }
+
+  .project-card img {
+    width: 100px; /* Reduce image size */
+    margin-left: 0; /* Remove left margin on smaller screens */
+    margin-bottom: 15px; /* Add spacing below the image */
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+  .projects-container {
+    padding: 10px; /* Reduce padding for small screens */
+  }
+
+  .project-card {
+    width: 100%; /* Full width for small screens */
+    flex-direction: column; /* Stack content vertically */
+    padding: 15px; /* Reduce padding for small screens */
+  }
+
+  .project-card img {
+    width: 80px; /* Further reduce image size */
+    margin-bottom: 10px; /* Add spacing below the image */
+  }
+
+  .project-card h3 {
+    font-size: 1.2rem; /* Smaller heading */
+  }
+
+  .project-card p {
+    font-size: 0.9rem; /* Smaller paragraph */
+  }
 }

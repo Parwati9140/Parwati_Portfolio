@@ -38,6 +38,9 @@ const Header = () => {
           <li>
             <Link to="/projects" onClick={closeMenu}>Projects</Link>
           </li>
+          <li>
+            <Link to="/contact" onClick={closeMenu}>Contact</Link>
+          </li>
         </ul>
       </nav>
     

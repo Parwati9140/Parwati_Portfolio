@@ -35,7 +35,7 @@ const Education = () => {
       <div className="experience-content">
         {/* Animated Image Container */}
         <div className="animated-image">
-          <img src="https://images/eduPurple.svg" alt="Animated Laptop" />
+          <img src={`${process.env.PUBLIC_URL}/images/eduPurple.svg`} alt="Animated Laptop" />
         </div>
 
         {/* Experience List */}

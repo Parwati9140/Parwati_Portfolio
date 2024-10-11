@@ -12,10 +12,9 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio1"> 
       <Header />
       <Routes>
-        
         <Route path="/" element={<HeroSection />} />
         <Route path="/about" element={<About />} />
         <Route path="/experience" element={<Experience />} />

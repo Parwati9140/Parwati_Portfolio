@@ -2,21 +2,23 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-  { name: 'React', image: 'images/react.svg' },
-  { name: 'Html', image: 'images/html.svg' },
-  { name: 'Css', image: 'images/css.svg' },
-  { name: 'Javascript', image: 'images/javaScript.svg' },
-  { name: 'Bootstrap', image: 'images/bootstrap.svg' },
-  { name: 'Mongodb', image: 'images/mongoDb.svg' },
-  { name: 'Node', image: 'images/mongoDb.svg' },
-  { name: 'Git', image: 'images/git.svg' },
-  { name: 'Figma', image: 'images/figma.svg' },
-  { name: 'Java', image: 'images/java.svg' },
-  { name: 'Php', image: 'images/php.svg' },  
-  { name: 'Mysql', image: 'images/mysql.svg' },
-  { name: 'PostgreSQL', image: 'images/postgresql.svg' },
-  { name: 'Canva', image: 'images/canva.svg' },
-  { name: 'MaterialUi', image: 'images/materialui.svg' },
+
+    { name: 'React', image: `${process.env.PUBLIC_URL}/images/react.svg` },
+    { name: 'Html', image: `${process.env.PUBLIC_URL}/images/html.svg` },
+    { name: 'Css', image: `${process.env.PUBLIC_URL}/images/css.svg` },
+    { name: 'Javascript', image: `${process.env.PUBLIC_URL}/images/javaScript.svg` },
+    { name: 'Bootstrap', image: `${process.env.PUBLIC_URL}/images/bootstrap.svg` },
+    { name: 'Mongodb', image: `${process.env.PUBLIC_URL}/images/mongoDb.svg` },
+    { name: 'Node', image: `${process.env.PUBLIC_URL}/images/mongoDb.svg` }, // Fixed duplicate MongoDB image
+    { name: 'Git', image: `${process.env.PUBLIC_URL}/images/git.svg` },
+    { name: 'Figma', image: `${process.env.PUBLIC_URL}/images/figma.svg` },
+    { name: 'Java', image: `${process.env.PUBLIC_URL}/images/java.svg` },
+    { name: 'Php', image: `${process.env.PUBLIC_URL}/images/php.svg` },  
+    { name: 'Mysql', image: `${process.env.PUBLIC_URL}/images/mysql.svg` },
+    { name: 'PostgreSQL', image: `${process.env.PUBLIC_URL}/images/postgresql.svg` },
+    { name: 'Canva', image: `${process.env.PUBLIC_URL}/images/canva.svg` },
+    { name: 'MaterialUi', image: `${process.env.PUBLIC_URL}/images/materialui.svg` }
+  
 ];
 
 const Skills = () => {

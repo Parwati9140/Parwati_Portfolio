@@ -3,42 +3,67 @@ import './Projects.css';
 
 const projects = [
   {
-    name: 'AI Powered Financial App',
-    description: 'Description of AI Powered Financial App...',
-    imageUrl: 'images/pinki2.jpeg',
+    name: 'Personal Portfolio',
+    description: 'Description of Personal Portfolio...',
+    imageUrl: `${process.env.PUBLIC_URL}/images/Screenshot (59).png`,
+    githubLink: 'https://github.com/Parwati9140/Portfolio1',
+  },
+
+  {
+    name: 'Quiz App',
+    description: 'Description of Quiz App..',
+    imageUrl: `${process.env.PUBLIC_URL}/images/Screenshot (2).png`,
+    githubLink: 'https://github.com/Parwati9140/Quiz',
+  },
+  {
+    name: 'Cyber Risk and Reslience',
+    description: 'Description of Cyber Risk and Reslience..',
+    imageUrl:` ${process.env.PUBLIC_URL}/images/Screenshot (10).png`,
     githubLink: 'https://github.com/Parwati9140',
   },
   {
-    name: 'Travel Agency App',
-    description: 'Description of Travel Agency App...',
-    imageUrl: 'https://your-image-url.com/image2.png',
-    githubLink: 'https://github.com/Parwati9140',
-  },
-  {
-    name: 'AI Powered Real Estate',
-    description: 'Description of AI Powered Real Estate...',
-    imageUrl: 'https://your-image-url.com/image3.png',
-    githubLink: 'https://github.com/Parwati9140',
-  },
-  {
-    name: 'Newsroom Management',
-    description: 'Description of Newsroom Management...',
-    imageUrl: 'https://your-image-url.com/image4.png',
-    githubLink: 'https://github.com/Parwati9140',
-  },
-  {
-    name: 'Travel Agency App',
-    description: 'Description of Travel Agency App...',
-    imageUrl: 'https://your-image-url.com/image2.png',
-    githubLink: 'https://github.com/Parwati9140',
-  },
-  {
-    name: 'AI Powered Real Estate',
-    description: 'Description of AI Powered Real Estate...',
-    imageUrl: 'https://your-image-url.com/image3.png',
+    name: 'Cake Bakkery',
+    description: 'Description of Cake Bakkery Website...',
+    imageUrl: `${process.env.PUBLIC_URL}/images/Screenshot (8).png`,
     githubLink: 'https://github.com/Parwati9140',
   },
 
+  {
+    name: 'Travel Agency website',
+    description: 'Description of Travel Agency Website...',
+    imageUrl: `${process.env.PUBLIC_URL}/images/Screenshot (4).png`,
+    githubLink: 'https://github.com/Parwati9140',
+  },
+  {
+    name: 'Travel Mitra Website',
+    description: 'Description of Travel Mitra Website...',
+    imageUrl: `${process.env.PUBLIC_URL}/images/Screenshot (55).png`,
+    githubLink: 'https://github.com/Parwati9140/Travel_Mitra',
+  },
+  {
+    name: 'Health Care Website',
+    description: 'Description of Health Care Website...',
+    imageUrl: `${process.env.PUBLIC_URL}/images/Screenshot (58).png`,
+    githubLink: 'https://github.com/Parwati9140',
+  },
+  {
+    name: 'College Institute Website',
+    description: 'Description of College Institute  Website...',
+    imageUrl: `${process.env.PUBLIC_URL}/images/Screenshot (10).png`,
+    githubLink: 'https://github.com/Parwati9140/Travel_Mitra',
+  },
+  {
+    name: 'E-commerce Website',
+    description: 'Description of E-commerce Website...',
+    imageUrl: `${process.env.PUBLIC_URL}/images/Screenshot (8).png`,
+    githubLink: 'https://github.com/Parwati9140',
+  },
+  {
+  name: 'Job Entry Website',
+  description: 'Description of Job Entry Website...',
+  imageUrl: `${process.env.PUBLIC_URL}/images/Screenshot (9).png`,
+  githubLink: 'https://github.com/Parwati9140',
+},
 ];
 
 const Projects = () => {

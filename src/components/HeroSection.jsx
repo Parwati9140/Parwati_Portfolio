@@ -6,7 +6,7 @@ import Skills from "../pages/Skills";
 import Education from "../pages/Education";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
-
+import Header from "./Header";
 const HeroSection = () => {
   const [showScroll, setShowScroll] = useState(false);
 
@@ -33,6 +33,7 @@ const HeroSection = () => {
 
   return (
     <>
+ 
       <section className="hero">
         <div className="hero-text">
           <h1>
