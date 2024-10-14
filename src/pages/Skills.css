@@ -4,7 +4,7 @@
   overflow-x: auto; /* Enable horizontal scrolling for the whole section */
   white-space: nowrap; /* Prevent line breaks */
   scrollbar-width: thin;
-  scrollbar-color: #4b0082 transparent;
+  scrollbar-color: #0f172a transparent;
   position: relative;
 }
 .skill{
