@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Router basename="/Portfolio1"> 
+    <Router basename="/Parwati_Portfolio"> 
       <Header />
       <Routes>
         <Route path="/" element={<HeroSection />} />
