@@ -63,25 +63,31 @@
 /* Button styling */
 .cta-buttons {
   margin-top: 1rem;
+  gap: 15px;
 }
 
 .btn-primary, .btn-secondary {
-  padding: 0.5rem 1rem;
+  background-color: #c850c0;
+  background-image: linear-gradient(45deg, #c850c0, #4158d0);
+  color: white;
+  padding: 10px 20px;
   border: none;
-  border-radius: 4px;
-  margin-right: 1rem;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-size: 16px;
+  margin: 10px;
+
 }
 
-.btn-primary {
-  background-color: #6a0dad;
-  color: white;
+
+
+.btn-primary:hover {
+  background-image: linear-gradient(45deg, #4158d0, #c850c0);
 }
 
-.btn-secondary {
-  background-color: #ff1493;
-  color: white;
+
+.btn-secondary:hover {
+  background-image: linear-gradient(45deg, #4158d0, #c850c0);
 }
 
 /* Scroll to Top Button Styling */
@@ -154,18 +160,21 @@
   }
 
   .social-icons a {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 .social-icons{
   font-size: 1rem;
 }
   .cta-buttons {
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
+  }
+  .btn-primary, .btn-secondary {
+    margin-right: 0;
+    margin-bottom: 1rem;
   }
 
-  .btn-primary, .btn-secondary {
-    width: 50%; /* Buttons take full width on small screens */
-  }
 }
 
 /* Extra small screens */
@@ -186,15 +195,15 @@
   }
 
   .hero h1, .hero h2 {
-    font-size: 1.5rem; /* Smaller heading font size */
+    font-size: 1.2rem; /* Smaller heading font size */
   }
 
   .hero-text {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
   }
 
   .social-icons a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 .social-icons{
   font-size: 0.6rem;
@@ -202,11 +211,13 @@
   
 }
 
-  .cta-buttons {
-    flex-direction: column;
-  }
-
-  .btn-primary, .btn-secondary {
-    width: 50%; /* Buttons take full width on small screens */
-  }
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.btn-primary, .btn-secondary {
+  margin-right: 0;
+  margin-bottom: 1rem;
+}
 }

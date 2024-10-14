@@ -9,8 +9,8 @@ const experiences = [
     date: "Jan 2023 - Present",
   },
   {
-    role: "FULLSTACK DEVELOPEMent",
-    company: "Apprenticip",
+    role: "FULLSTACK DEVELOPEMENT(Apprenticeship)",
+    company: "Ducat India ",
     date: "Jun 2022 - Jan 2023",
   },
   {

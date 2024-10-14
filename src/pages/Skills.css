@@ -1,18 +1,27 @@
 .skills-container {
-  overflow: hidden;
   background-color: #0f172a;
   padding: 30px;
-  position: relative; /* Ensure the container properly holds the scrolling items */
-}
-
-.skills-scroll {
-  display: flex;
-  gap: 15px;
-  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-x: auto; /* Enable horizontal scrolling for the whole section */
+  white-space: nowrap; /* Prevent line breaks */
   scrollbar-width: thin;
   scrollbar-color: #4b0082 transparent;
-  animation: scroll 20s linear infinite; /* Automatic scrolling effect */
-  padding: 10px 0; /* Add padding to allow space for scrolling */
+  position: relative;
+}
+.skill{
+  margin-top: 0;
+  background-color: #0f172a;
+}
+.skills-scroll {
+    background-color: #0f172a;
+  padding: 30px;
+  overflow-x: auto; /* Enable horizontal scrolling for the whole section */
+  white-space: nowrap; /* Prevent line breaks */
+  scrollbar-width: thin;
+  scrollbar-color: #4b0082 transparent;
+  position: relative;
+  display: inline-flex; /* Ensure that all skill cards are in one row */
+
+  animation: scroll 25s linear infinite; /* Faster automatic scrolling effect */
 }
 
 .skills-scroll::-webkit-scrollbar {
@@ -43,15 +52,15 @@
 .skill-icon {
   width: 50px;
   height: 50px;
-  object-fit: contain; /* Make sure the image is properly contained */
+  object-fit: contain; /* Ensure the image is properly contained */
 }
 
 @keyframes scroll {
   0% {
-      transform: translateX(100%); /* Start from right */
+    transform: translateX(100%); /* Start from right */
   }
   100% {
-      transform: translateX(-100%); /* Move to the left */
+    transform: translateX(-100%); /* Move to the left */
   }
 }
 
@@ -65,12 +74,13 @@
   box-shadow: 0 4px 12px #f168b1; /* Violet shadow on hover */
   transform: scale(1.1); /* Zoom in on hover */
 }
+
 @media (max-width: 768px) {
   .skill-card {
     min-width: 120px; /* Reduce width on smaller screens */
   }
   .skill-card p {
-    font-size: 18px; /* Reduce font size */
+    font-size: 14px; /* Reduce font size */
   }
   .skill-icon {
     width: 40px;
@@ -83,11 +93,10 @@
     min-width: 100px;
   }
   .skill-card p {
-    font-size: 16px;
+    font-size: 13px;
   }
   .skill-icon {
     width: 35px;
     height: 35px;
   }
 }
-

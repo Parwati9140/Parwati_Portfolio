@@ -40,7 +40,7 @@ const HeroSection = () => {
             Hello, This is <span className="highlight">Parwati Maurya</span>
           </h1>
           <h2>
-            I’m a Professional <span className="name">Software Developer</span>.
+            I’m a <span className="name">Web Developer</span>.
           </h2>
           <div className="social-icons">
             <a href="https://github.com" target="_blank" rel="noreferrer">
@@ -57,9 +57,11 @@ const HeroSection = () => {
             </a>
           </div>
           <div className="cta-buttons">
-            <button className="btn-primary">Contact Me</button>
-            <button className="btn-secondary">Get Resume</button>
-          </div>
+    <button className="btn-primary">Contact Me</button>
+    <a href={`${process.env.PUBLIC_URL}/images/parwati.pdf`} download="My_Resume.pdf">
+        <button className="btn-secondary">Get Resume</button>
+    </a>
+</div>
         </div>
         <div className="code-snippet">
           <pre>

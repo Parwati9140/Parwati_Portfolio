@@ -23,8 +23,10 @@ const skills = [
 
 const Skills = () => {
   return (
+    <div className='skill'>
+       <div className='n'><h3>Skills<hr/></h3></div>
     <div className="skills-container">
-      <div className='n'><h3>Skills<hr/></h3></div>
+     
       <div className="skills-scroll">
       
         {skills.map((skill, index) => (
@@ -35,6 +37,8 @@ const Skills = () => {
         ))}
       </div>
     </div>
+    </div>
+  
   );
 };
 
